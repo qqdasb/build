@@ -2,7 +2,7 @@ name: "Build"
 on:
   workflow_dispatch:
 jobs:
-  build-armbian:
+  build:
     runs-on: ubuntu-latest
     steps:
       - uses: armbian/build@main
